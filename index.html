@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ 
+
+#userlist {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+ }
+
+.usercrd {
+    width: 200px; /* width of each user card */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* box shadow */
+    text-align: center;
+}
+
+.usercrd img {
+    width: 100%; 
+    border-radius: 50%; /* rounded corners for circular avatar */
+    margin-bottom: 10px; /* space between image and details */
+}
+
+.user-details {
+    font-size: 14px;
+}
+
+.name, .email {
+    display: block; /* display details in block format */
+    margin-bottom: 8px; 
+}
+
+    </style>
+</head>
+<body><div class="contanier">
+    <button id="fetchbtn">Fetch user </button>
+    <div id="userlist" class="userclass"></div>
+</div>
+    
+</body>
+<script src="./index.js"></script>
+</html>
